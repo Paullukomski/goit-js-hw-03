@@ -1,7 +1,7 @@
-"us script";
+"use script";
 
-function slugify(tittle) {
-  let slug = tittle.toLowerCase();
+function slugify(title) {
+  let slug = title.toLowerCase();
   slug = slug.replace(/\s+/g, "-");
   return slug;
 }

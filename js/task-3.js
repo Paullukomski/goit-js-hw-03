@@ -1,6 +1,4 @@
-"us script";
-
-"us script";
+"use script";
 
 function filterArray(numbers, value) {
   const newArray = [];

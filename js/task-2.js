@@ -1,13 +1,13 @@
-"us script";
+"use script";
 
 function makeArray(firstArray, secondArray, maxLength) {
-  const mayArray = firstArray.concat(secondArray);
+  const myArray = firstArray.concat(secondArray);
   if (maxLength === 0) {
     return [];
-  } else if (mayArray.length > maxLength) {
-    return mayArray.slice(0, maxLength);
+  } else if (myArray.length > maxLength) {
+    return myArray.slice(0, maxLength);
   } else {
-    return mayArray;
+    return myArray;
   }
 }
 
